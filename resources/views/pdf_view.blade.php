@@ -7,14 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Generate PDF </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
+  
 </head>
 
 <body>
     <div class="container mt-5">
         <h2 class="text-center mb-3">Laravel HTML to PDF  </h2>
-
-   
 
         <table class="table table-bordered mb-5">
             <thead>
@@ -41,7 +39,7 @@
 
     </div>
 
-    <script src="{{ asset('js/app.js') }}" type="text/js"></script>
+  
 </body>
 
 </html>
