@@ -12,7 +12,7 @@
 
 <body>
     <div class="container mt-5">
-        <h2 class="text-center mb-3">Laravel HTML to PDF Example</h2>
+        <h2 class="text-center mb-3">Laravel HTML to PDF  </h2>
 
         <div class="d-flex justify-content-end mb-4">
             <a class="btn btn-primary" href="{{ URL::to('/employee/pdf') }}">Export to PDF</a>

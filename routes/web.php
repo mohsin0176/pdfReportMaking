@@ -14,7 +14,7 @@ use App\Http\Controllers\EmployeeController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 Route::get('/', [EmployeeController::class, 'showEmployees']);
