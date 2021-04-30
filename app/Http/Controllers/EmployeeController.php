@@ -22,6 +22,6 @@ class EmployeeController extends Controller
       $pdf = PDF::loadView('pdf_view', $data);
 
       // download PDF file with download method
-      return $pdf->download('pdf_view.pdf');
+      return $pdf->download('pdf_report.pdf');
     }
 }
