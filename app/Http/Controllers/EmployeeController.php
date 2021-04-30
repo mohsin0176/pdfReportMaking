@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Employee;
 use PDF;
+use View;
+
 class EmployeeController extends Controller
 {
     public function showEmployees(){
